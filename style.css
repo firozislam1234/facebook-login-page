@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: absolute;
+    top: 23%;
+    left: 20%;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    align-items: center;
+    position: relative;
+}
+.form-descreption{
+    text-align: center;
+    font-size: 19px;
+}
+.form-descreption a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.facebook-titel h1{
+    font-size: 4rem;
+    color: #0866ff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.facebook-titel{
+    margin-bottom: 15px;
+}
+.facebook-titel p{
+    font-size: 2rem;
+}
+
+.facebook-login-form form{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    box-shadow: 0px 0px 537px -87px;
+    padding: 22px;
+    border-radius: 10px;
+    gap: 22px;
+    margin-bottom: 25px;
+}
+.facebook-login-form form> input{
+    border: 1px solid #ddd;
+}
+.login-btn{
+    background-color: #0866ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.create-btn{
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.facebook-login-form form> input, button{
+    padding: 16px;
+    border-radius: 6px;
+}
+.facebook-login-form form> a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px ;
+}
+
+
+
+
+
+
+
+
+
